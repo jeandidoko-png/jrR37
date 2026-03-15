@@ -3,6 +3,7 @@
   "routes": [
     { "src": "/dashboard", "dest": "/public/client.html" },
     { "src": "/client",    "dest": "/public/client.html" },
+    { "src": "/public/(.*)", "dest": "/public/$1" },
     { "src": "/",          "dest": "/index.html" }
   ],
   "headers": [
